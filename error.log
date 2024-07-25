@@ -1,0 +1,105 @@
+[24-Jul-2024 19:14:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:208
+Stack trace:
+#0 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(208): sprintf('%1$s installed ...', 'WooCommerce')
+#1 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after('WooCommerce')
+#2 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-wp-upgrader.php(930): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3266): WP_Upgrader->run(Array)
+#4 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\admin.php(259): do_action('plugins_page_tg...')
+#11 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\parul\\...')
+#12 {main}
+  thrown in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 208
+[24-Jul-2024 19:14:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:208
+Stack trace:
+#0 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(208): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-wp-upgrader.php(930): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3266): WP_Upgrader->run(Array)
+#4 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\admin.php(259): do_action('plugins_page_tg...')
+#11 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\parul\\...')
+#12 {main}
+  thrown in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 208
+[24-Jul-2024 19:14:40 UTC] PHP Warning:  rename(C:\Windows\TEMP/instagram-feed.6.4.3-fIRtz7.tmp,C:\Windows\TEMP/instagram-feed.6.4.3.zip): Access is denied (code: 5) in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\file.php on line 1234
+[24-Jul-2024 19:14:40 UTC] PHP Warning:  unlink(C:\Windows\TEMP/instagram-feed.6.4.3.zip): Resource temporarily unavailable in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\file.php on line 1239
+[24-Jul-2024 19:14:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:208
+Stack trace:
+#0 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(208): sprintf('%1$s installed ...', 'Instagram Feed')
+#1 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after('Instagram Feed')
+#2 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-wp-upgrader.php(930): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3266): WP_Upgrader->run(Array)
+#4 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\admin.php(259): do_action('plugins_page_tg...')
+#11 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\parul\\...')
+#12 {main}
+  thrown in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 208
+[24-Jul-2024 19:14:45 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[24-Jul-2024 19:14:45 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::should_show_callout, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[24-Jul-2024 19:14:46 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[24-Jul-2024 19:14:46 UTC] WordPress database error Table 'local.wp_sbi_feeds' doesn't exist for query SELECT COUNT(*) FROM wp_sbi_feeds made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sb_instagram_feed_init, InstagramFeed\Admin\SBI_Callout->__construct, InstagramFeed\Admin\SBI_Callout::should_show_callout, InstagramFeed\Admin\SBI_Callout::get_callout_plugins_list, InstagramFeed\Admin\SBI_Callout::feeds_number
+[24-Jul-2024 19:14:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:208
+Stack trace:
+#0 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(208): sprintf('%1$s installed ...', 'TI WooCommerce ...')
+#1 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after('TI WooCommerce ...')
+#2 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-wp-upgrader.php(930): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3266): WP_Upgrader->run(Array)
+#4 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\admin.php(259): do_action('plugins_page_tg...')
+#11 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\parul\\...')
+#12 {main}
+  thrown in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 208
+[24-Jul-2024 19:15:06 UTC] PHP Warning:  rename(C:\Windows\TEMP/variation-swatches-for-woocommerce.2.2.2-Q7nwLg.tmp,C:\Windows\TEMP/variation-swatches-for-woocommerce.2.2.2.zip): Access is denied (code: 5) in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\file.php on line 1234
+[24-Jul-2024 19:15:06 UTC] PHP Warning:  unlink(C:\Windows\TEMP/variation-swatches-for-woocommerce.2.2.2.zip): Resource temporarily unavailable in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\file.php on line 1239
+[24-Jul-2024 19:15:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:208
+Stack trace:
+#0 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php(208): sprintf('%1$s installed ...', 'Variation Swatc...')
+#1 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after('Variation Swatc...')
+#2 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-wp-upgrader.php(930): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3266): WP_Upgrader->run(Array)
+#4 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run(Array)
+#5 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\includes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\admin.php(259): do_action('plugins_page_tg...')
+#11 C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\parul\\...')
+#12 {main}
+  thrown in C:\Users\parul\Local Sites\buybliss\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 208
+[24-Jul-2024 19:19:37 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:19:37 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:19:38 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:19:59 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:20:21 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:20:43 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:21:06 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:21:28 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:21:49 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:12 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:12 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:34 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:35 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:37 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:37 UTC] PHP Warning:  Undefined array key "plugins" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2713
+[24-Jul-2024 19:22:37 UTC] PHP Warning:  Undefined array key "vertical_menu" in C:\Users\parul\Local Sites\buybliss\app\public\wp-content\plugins\woostify-sites-library\class-woostify-sites.php on line 2544
+[25-Jul-2024 10:44:04 UTC] PHP Warning:  Array to string conversion in C:\Users\parul\Local Sites\buybliss\app\public\wp-includes\functions.php on line 3871
